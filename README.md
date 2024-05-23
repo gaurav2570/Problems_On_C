@@ -1,1 +1,1 @@
-This file contains various problem on c programming language.
+This file contains various problems on c programming language.
