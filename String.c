@@ -2,20 +2,12 @@
 
 int main()
 {
-    char ch [10];
-    int Count = 0;
-    int i = 1;
+    char Arr[] = {'H','E','L','L','O','\0'};
 
-    printf("Enter the words you want display on screen \n");
-    scanf("%s",&ch);
+    char Brr[] = "Hello";
 
-    printf("Enter How many times you want display on screen \n");
-    scanf("%d",&Count);
-
-    for(i=1; i <= Count ; i++)
-    {
-        printf("%s \n",ch);
-    }
+    printf("%s\n",Arr);
+    printf("%s\n",Brr);
 
     return 0;
 }
